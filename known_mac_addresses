@@ -1,0 +1,4 @@
+#Insert MAC addresses, one per line in the format aa:bb:cc:dd:ee:ff. Place comments on the same line to assist with auditing. Place ENABLE SSH in the comment to allow the host to ssh into this firewall/AP
+#
+#    eg:     CA:FE:BE:EF:BA:BE #somewks1 ENABLE SSH
+

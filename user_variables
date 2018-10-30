@@ -1,0 +1,14 @@
+
+#Port which is used to ssh into this "firewall"
+sshport=22
+
+#external/WAN/internet-facing interface
+wan_nic=eth0
+
+#Internal/LAN interface
+lan_nic=wlan0
+
+#Ports allowed when originating from your network to the outside world
+#This will likely require adaptation to your needs.
+#FTP (20, 21); SSH (22); WHOIS (43, 4321); DNS (53); HTTP (80); HTTPS/SSL (443); VPN/PIA (1194, 8080, 9201)
+ports="20:22,43,53,443,1194,4321,8080,9201"
